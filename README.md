@@ -19,8 +19,8 @@ pop_job(job_semaphore,
 ```
 
 # Compilation
-gcc -lpthread ./pthread.c -o ./pthread
-gcc ./lambda.c -o ./lambda
+* gcc -lpthread ./pthread.c -o ./pthread
+* gcc ./lambda.c -o ./lambda
 
 # Usage and Description
 Please reference to my [blog](https://medicineyeh.wordpress.com/2015/03/12/how-to-write-a-lambda-expression-and-callback-function-in-c/)
