@@ -46,7 +46,7 @@ int main()
     printArray(values, 6); //Print
 
     memcpy(values, values_2, 6 * sizeof(int)); //Initialize array
-    lambda_1(values, 6, (const void * a, const void * b) {return ( *(int*)a + *(int*)b );});
+    lambda_1(values, 6, (const void * a, const void * b) {return ( *(int*)a - *(int*)b );});
     printArray(values, 6);
 
     memcpy(values, values_2, 6 * sizeof(int)); //Initialize array

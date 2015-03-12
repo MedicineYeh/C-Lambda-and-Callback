@@ -1,6 +1,6 @@
 # C-Lambda-and-Callback
 Lambda expression has been supported by many programing languages. But it is not supported by standard C.
-This problem is now solved by the combinations of some techniques. If you want to have the same functionality of lambda, your compiler needs to support *nested function. The result would be something like this:
+This problem is now solved by the combinations of some techniques. If you want to have the same functionality of lambda, your compiler needs to support __nested function__. The result would be something like this:
 
 ```C
 my_qsort(values, 6, a, b, return (*(int*)a - *(int*)b););
@@ -23,9 +23,9 @@ gcc -lpthread ./pthread.c -o ./pthread
 gcc ./lambda.c -o ./lambda
 
 # Usage and Description
-Please reference to my [blog]()
+Please reference to my [blog](https://medicineyeh.wordpress.com/2015/03/12/how-to-write-a-lambda-expression-and-callback-function-in-c/)
 
 # Super Fast Ring Buffer
-This is my version of Ring Buffer modified from [Philip Thrasher](https://github.com/MedicineYeh/c-generic-ring-buffer)
+This is my version of Ring Buffer modified from [Philip Thrasher](https://github.com/pthrasher/c-generic-ring-buffer)
 I made macros deal with only pointer type for easier to use.
 
