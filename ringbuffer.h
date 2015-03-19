@@ -4,8 +4,8 @@
 #define ringBuffer_typedef(T, NAME) \
     typedef struct { \
         int size; \
-        int start; \
-        int end; \
+        volatile int start; \
+        volatile int end; \
         T* elems; \
     } NAME
 
